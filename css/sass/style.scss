@@ -1,0 +1,1786 @@
+$laranjatoledo: #ff7b10;
+$cortextoclaro: #fff;
+$cortextoescuro: #323232;
+$cortextorodape: #333;
+$bordaequipe: #4b4b4b;
+$fontepadrao: Montserrat;
+$bold: 700;
+$regular: 500;
+$black: 900;
+$botaodisabled: #5a5a5a;
+
+body {
+  padding: 0;
+  margin: -1px 0 0 0 !important;
+  font-family: $fontepadrao;
+
+  .curvalaranja {
+    position: absolute;
+    display: block;
+    margin-left: 54.99%;
+    width: 45%;
+    margin-top: 0.1%;
+  }
+
+  .fundosecao15 {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+
+  .carrossel {
+    .carrosselitem {
+      .carrosselimagem {
+        margin-top: -700px;
+        width: 800px;
+        display: block;
+        float: right;
+      }
+    }
+  }
+
+  .sectionprincipal {
+    color: $cortextoclaro;
+    display: block;
+    padding: 0 9.37%;
+    max-width: 100vw;
+
+    .barrabranca {
+      background-color: $cortextoclaro;
+      width: 50px;
+      height: 7px;
+      margin-bottom: 0;
+    }
+
+    .section {
+      height: 100vh;
+      position: relative;
+      background-size: cover;
+    }
+
+    .titulo {
+      font-weight: $black;
+      font-size: 36px;
+      line-height: 3rem;
+      white-space: pre-line;
+      max-width: 22ch;
+      margin-top: -5vh;
+      font-family: $fontepadrao !important;
+      margin-bottom: 0;
+    }
+
+    .textobarralaranja {
+      font-family: $fontepadrao !important;
+      font-size: 16px;
+      font-weight: $regular;
+    }
+
+    .barralaranja {
+      background-color: $laranjatoledo;
+      width: 50px;
+      height: 7px;
+      margin-bottom: 0;
+    }
+
+    .texto {
+      font-family: $fontepadrao !important;
+      font-weight: 300;
+      text-align: justify;
+      margin-top: 50px;
+    }
+
+    &#secao123 {
+      background: url("../../img/tela01/fundo_1-2-3.jpg") center center no-repeat;
+      width: 100%;
+      height: auto;
+      background-size: cover;
+
+      #secao1 {
+        .imgnotebook {
+          width: 700px;
+          position: absolute;
+          display: block;
+          z-index: 1;
+          margin-left: 535px;
+          margin-top: 100px;
+        }
+
+        .fundo {
+          padding: 0;
+          margin-left: 0;
+
+          .campoLogo {
+            height: 100vh;
+            padding-left: 91%;
+
+            .bolinhas {
+              margin-left: 7rem;
+              margin-top: 23vh;
+              width: 8%;
+            }
+
+            .logoToledo {
+              width: 180px;
+              margin-top: 2.5rem;
+            }
+          }
+
+          .detalhelaranja {
+            margin-left: -40px;
+            margin-top: 75px;
+            position: absolute;
+            display: block;
+
+            img {
+              width: 50px;
+            }
+          }
+        }
+
+        .conteudo {
+          margin-top: -61%;
+
+          .barralaranja {
+            background-color: $laranjatoledo;
+            width: 80px;
+            height: 7px;
+            margin-top: 3rem;
+            margin-bottom: 0;
+          }
+
+          .titulo {
+            font-weight: $black;
+            font-size: 66px;
+            line-height: 4rem;
+            font-family: $fontepadrao !important;
+            white-space: pre-line;
+            width: 13ch;
+            margin-bottom: 0;
+          }
+
+          .subtitulo {
+            font-size: 46px;
+            line-height: 3rem;
+            white-space: pre-line;
+            width: 19ch;
+            font-weight: 300;
+            font-family: $fontepadrao !important;
+            margin-top: -3rem;
+          }
+
+          .textobarralaranja {
+            font-family: $fontepadrao !important;
+            font-size: 20px;
+          }
+
+          .areamouse {
+            margin-top: 50px;
+            white-space: pre-line;
+            width: 7ch;
+
+            a {
+              color: $cortextoclaro;
+              font-weight: 300;
+              font-size: 16px;
+              font-family: $fontepadrao;
+
+              &:hover {
+                text-decoration: none;
+              }
+
+              .mouse {
+                width: 3px;
+                padding: 10px 13px 10px 12px;
+                height: 25px;
+                border: 2px solid $laranjatoledo;
+                border-radius: 25px;
+                opacity: 0.75;
+                box-sizing: content-box;
+                margin: 0;
+
+                .scroller {
+                  width: 3px;
+                  height: 10px;
+                  border-radius: 25%;
+                  background-color: $laranjatoledo;
+                  animation-name: scroll;
+                  animation-duration: 2.2s;
+                  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+                  animation-iteration-count: infinite;
+                  margin-left: 1px;
+                  margin-top: -30px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #secao2 {
+        .fundo {
+          .imagemaluno {
+            width: 130%;
+            margin-left: -7.8%;
+          }
+
+          .conteudo {
+            margin-top: 10%;
+            padding-left: 6%;
+
+            .bolinhas {
+              margin-right: -25%;
+              margin-top: -25%;
+              width: 55px;
+            }
+
+            .texto {
+              margin-top: 2.15rem;
+            }
+          }
+        }
+      }
+
+      #secao3 {
+        .fundo {
+          .conteudo {
+            margin-top: 10%;
+            padding-left: 8.5%;
+          }
+
+          .alerta {
+            padding-left: 7%;
+            margin-top: 4%;
+            margin-bottom: 10%;
+
+            .textoAlerta {
+              font-weight: $bold;
+              font-size: 1rem;
+            }
+          }
+
+          .alertaControle {
+            padding-left: 75px;
+            margin-top: 115px;
+            position: absolute;
+            margin-left: 535px;
+
+            .textocarrossel {
+              font-weight: 300;
+              line-height: 17px;
+              font-size: 1rem;
+            }
+
+            .controlecarrossel {
+              width: 5vh;
+              height: 5vh;
+              border-radius: 50%;
+              background-color: $cortextoclaro;
+              border: none;
+              margin-left: 3%;
+
+              &[disabled] {
+                background-color: $botaodisabled;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &#secao2,
+    &#secao3,
+    &#secao4,
+    &#secao5,
+    &#secao6,
+    &#secao7,
+    &#secao8,
+    &#secao9 {
+      .fundo {
+        height: 100vh;
+        align-content: center;
+      }
+    }
+
+    &#secao4 {
+      background: url("../../img/tela04/fundo_4.jpg") left center no-repeat;
+      background-size: 97%;
+      background-position-x: right;
+
+      .imagemlaranja {
+        position: absolute;
+        margin-left: -10%;
+        height: 80vh;
+        width: 55vw;
+      }
+
+      .bolinhas {
+        position: absolute;
+        margin-top: 90px;
+        width: 9.5rem;
+        margin-left: -90px;
+      }
+
+      .fundo {
+        height: 80vh;
+        align-content: inherit;
+
+        .conteudo {
+          margin-top: 10%;
+          padding-left: 8.5%;
+        }
+
+        .icones {
+          list-style: none;
+          padding: 10vh 0 10vh 3vw;
+          margin: 0;
+          display: grid;
+
+          li {
+            display: -webkit-inline-box;
+            height: 10vh;
+
+            .texto {
+              margin: 0;
+              margin-left: 5%;
+              font-weight: $bold;
+              font-style: italic;
+              font-size: 20px;
+              color: $cortextoescuro;
+              background-color: $cortextoclaro;
+              max-width: 20ch;
+              height: 10vh;
+              border-radius: 10px;
+              padding: 2vh;
+              align-items: center;
+              width: fit-content;
+              display: none;
+              text-align: start;
+            }
+
+            img {
+              width: 64px;
+              margin-top: -2px;
+            }
+
+            &.primeiro,
+            &.segundo,
+            &.terceiro,
+            &.quarto,
+            &.quinto {
+              .col-2 {
+                background-color: transparent;
+                height: 74px;
+                border-radius: 50%;
+                max-width: 74px;
+                margin-left: 0.55vw;
+                padding-left: 8px;
+              }
+            }
+
+            &.primeiro,
+            &.terceiro,
+            &.quinto {
+              .texto {
+                height: 7vh;
+              }
+            }
+
+            &.segundo {
+              padding-left: 2.5vw;
+            }
+
+            &.terceiro,
+            &.quinto {
+              padding-left: 4vw;
+            }
+
+            &.quarto {
+              padding-left: 4.5vw;
+            }
+
+            .arrow-left {
+              width: 0;
+              height: 0;
+              border-top: 10px solid transparent;
+              border-bottom: 10px solid transparent;
+              border-right: 10px solid $cortextoclaro;
+              position: absolute;
+              display: flex;
+              margin-left: -3vh;
+            }
+          }
+        }
+      }
+    }
+
+    &#secao56 {
+      background: url("../../img/tela05/fundo_5-6.jpg") left top no-repeat;
+      width: 100%;
+      height: auto;
+      background-size: cover;
+      margin-bottom: -1px;
+
+      #secao5 {
+        .imagemaluno {
+          width: 65%;
+          margin-left: -7%;
+          margin-top: 5%;
+          position: absolute;
+          display: block;
+        }
+
+        .fundo {
+          .conteudo {
+            margin-top: 10%;
+            padding-left: 8.5%;
+          }
+        }
+      }
+
+      #secao6 {
+        .imagempontos {
+          position: relative;
+          display: inline-block;
+
+          .imagemaluno {
+            display: block;
+            width: 125%;
+            margin-right: -18%;
+            float: right;
+            margin-top: 5%;
+          }
+
+          .pontos {
+            font-family: $fontepadrao;
+            width: 1.1875rem;
+            height: 1.1875rem;
+            -webkit-transition: all 0.25s ease-out;
+            -moz-transition: all 0.25s ease-out;
+            -ms-transition: all 0.25s ease-out;
+            -o-transition: all 0.25s ease-out;
+            transition: all 0.25s ease-out;
+            position: absolute;
+            color: $cortextoclaro;
+            border-radius: 100px;
+            font-size: 18px;
+            font-weight: $regular;
+            margin-left: -12.5px;
+            margin-top: -12.5px;
+            text-align: center;
+            background-color: $laranjatoledo;
+            display: block;
+
+            &::after {
+              content: "+";
+              display: inline-block;
+              vertical-align: middle;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -ms-transform: translate(-50%, -50%);
+              -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+            }
+
+            &.negativo::after {
+              content: "-";
+              display: inline-block;
+              vertical-align: middle;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -ms-transform: translate(-50%, -50%);
+              -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+            }
+
+            &#janela {
+              left: 77%;
+              top: 23%;
+            }
+
+            &#oculos {
+              left: 71%;
+              top: 31%;
+            }
+
+            &#parede {
+              left: 85%;
+              top: 35%;
+            }
+
+            &#garrafa {
+              left: 76%;
+              top: 43%;
+            }
+
+            &#bloconotas {
+              left: 76%;
+              top: 53%;
+            }
+
+            &#mesa {
+              left: 86%;
+              top: 49%;
+            }
+
+            &#porta {
+              left: 43%;
+              top: 58%;
+            }
+
+            &#chao {
+              left: 54%;
+              top: 65%;
+            }
+
+            &#perna {
+              left: 47%;
+              top: 73%;
+            }
+
+            &#notebook {
+              left: 30%;
+              top: 76%;
+            }
+
+            &#sofa {
+              left: 19%;
+              top: 67%;
+            }
+          }
+
+          .textoBlack {
+            font-weight: $bold;
+          }
+
+          .textoleft {
+            position: absolute;
+            line-height: 1.25rem;
+            font-style: italic;
+            font-size: 16px;
+            color: $cortextoescuro;
+            background-color: $cortextoclaro;
+            display: none;
+            max-width: 30ch;
+            height: 315%;
+            border-radius: 10px;
+            padding: 50%;
+            align-items: center;
+            width: max-content;
+            text-align: start;
+            z-index: 999;
+            transform: translateY(-33%);
+            left: 191%;
+          }
+
+          .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            border-right: 8px solid $cortextoclaro;
+            position: absolute;
+            display: none;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 150%;
+          }
+
+          .textoright {
+            position: absolute;
+            z-index: 1;
+            line-height: 1.25rem;
+            font-style: italic;
+            font-size: 16px;
+            color: $cortextoescuro;
+            background-color: $cortextoclaro;
+            display: none;
+            max-width: 30ch;
+            height: 315%;
+            border-radius: 10px;
+            padding: 50%;
+            align-items: center;
+            width: max-content;
+            text-align: start;
+            z-index: 999;
+            transform: translateY(-33%);
+            right: 214%;
+          }
+
+          .arrow-right {
+            width: 0;
+            height: 0;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            border-left: 8px solid $cortextoclaro;
+            position: absolute;
+            display: none;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -115%;
+          }
+        }
+        .fundo {
+          .conteudo {
+            margin-top: 10%;
+            padding-left: 8.5%;
+          }
+
+          .cd-product-wrapper {
+            position: relative;
+          }
+        }
+
+        .bolinhas {
+          width: 55px;
+          margin-top: 44%;
+          position: absolute;
+          right: -5%;
+        }
+      }
+    }
+
+    &#secao789 {
+      background: url("../../img/tela07/fundo_7-8-9.jpg") left top no-repeat;
+      width: 100%;
+      height: auto;
+      background-size: cover;
+
+      .imagemlaranja {
+        position: absolute;
+        margin-left: -10vw;
+        height: 210%;
+        width: 37vw;
+        margin-top: 90px;
+      }
+
+      .fundo {
+        height: auto;
+      }
+
+      #secao7,
+      #secao9 {
+        .imagemaluno {
+          width: 60%;
+          left: -15%;
+          margin-top: -3%;
+          position: absolute;
+          display: block;
+        }
+
+        .fundo {
+          height: auto;
+
+          .conteudo {
+            margin-top: 10%;
+            padding-left: 3%;
+
+            .texto {
+              margin-top: 35px;
+            }
+          }
+
+          .contato {
+            font-family: $fontepadrao;
+
+            .tituloContato {
+              font-size: 18px;
+              font-weight: $bold;
+            }
+          }
+        }
+      }
+
+      #secao7 {
+        .titulo {
+          max-width: 17ch;
+          margin-bottom: 0;
+        }
+      }
+
+      #secao8 {
+        .imagemaluno {
+          width: 65%;
+          margin-top: -1%;
+          position: absolute;
+          display: block;
+        }
+
+        .fundo {
+          height: auto;
+
+          .imagemaluno {
+            width: 750px;
+            margin-top: -30px;
+          }
+
+          .conteudo {
+            margin-top: 10%;
+            padding-left: 3%;
+
+            .texto {
+              margin-top: 35px;
+            }
+          }
+        }
+      }
+
+      #secao9 {
+        padding-bottom: 3rem;
+      }
+    }
+
+    &#secao10 {
+      background-color: #3e3e3e;
+      padding-top: 3%;
+      padding-bottom: 3%;
+
+      .imagemaluno {
+        position: absolute;
+        display: block;
+        right: 0;
+        width: 55%;
+      }
+
+      .fundo {
+        .conteudo {
+          margin-top: 15vh;
+          padding-left: 6%;
+          margin-bottom: 15vh;
+
+          .texto {
+            margin-top: 9%;
+          }
+        }
+      }
+    }
+
+    &#secao1112 {
+      background: url("../../img/tela11/fundo_10-11.jpg") left top no-repeat;
+      width: 100%;
+      height: auto;
+      background-size: cover;
+
+      #secao11 {
+        &.section {
+          height: inherit;
+
+          .imagem {
+            position: absolute;
+            display: block;
+            right: 0;
+            width: 46%;
+            margin-top: 10%;
+          }
+        }
+
+        .fundo {
+          height: auto;
+
+          .conteudo {
+            padding-left: 6%;
+            margin-top: 12%;
+          }
+
+          .imagem {
+            width: 500px;
+            margin-top: 26%;
+            margin-left: 6%;
+          }
+        }
+      }
+
+      #secao12 {
+        &.section {
+          margin-top: 180px;
+          height: inherit;
+          padding-bottom: 100px;
+
+          .imagem {
+            position: absolute;
+            display: block;
+            left: -5%;
+            width: 35%;
+          }
+        }
+
+        .fundo {
+          height: auto;
+
+          .conteudo {
+            padding-left: 110px;
+
+            .titulo {
+              max-width: 18.3ch;
+              margin-bottom: 0;
+            }
+          }
+
+          .imagem {
+            width: 350px;
+          }
+        }
+      }
+    }
+
+    &#secao13 {
+      background: url("../../img/tela13/fundo_12.jpg") left top no-repeat;
+      width: 100%;
+      height: auto;
+      background-size: cover;
+
+      .imagemaluno {
+        position: absolute;
+        display: block;
+        right: 2%;
+        width: 38%;
+        padding: 3.3% 0;
+      }
+
+      .fundo {
+        padding: 10vh 0;
+
+        .conteudo {
+          padding-left: 6%;
+        }
+      }
+    }
+
+    &#secao14 {
+      .imagemaluno {
+        position: absolute;
+        display: block;
+        width: 62%;
+        left: 0;
+      }
+
+      .fundo {
+        padding: 10vh 0 20vh;
+
+        .bolinhas {
+          width: 35%;
+          margin-top: 25%;
+        }
+
+        .conteudo {
+          margin-top: 180px;
+        }
+      }
+    }
+
+    &#secao15 {
+      width: 100%;
+      height: 100vh;
+
+      .fundo {
+        padding: 20vh 0 20vh 6%;
+      }
+    }
+
+    &#secao16 {
+      width: 100%;
+      height: 90vh;
+      margin-top: -40px;
+
+      .imagemaluno {
+        padding: 0;
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 58%;
+        margin-top: -10%;
+      }
+
+      .fundo {
+        .conteudo {
+          margin-top: 10%;
+          align-self: center;
+        }
+      }
+    }
+
+    &#rodape {
+      padding: 0;
+
+      .fundo {
+        .arealogo {
+          background: url("../../img/rodape/fundo_rodape1.jpg") left top no-repeat;
+          text-align: center;
+          background-size: cover;
+
+          .logo {
+            width: 250px;
+            padding: 43px 0;
+          }
+        }
+
+        .inforodape {
+          margin: 0;
+          background: url(../../img/rodape/fundo_rodape2.jpg) left top no-repeat;
+          background-size: cover;
+          text-align: left;
+          font-size: 13px;
+          font-family: $fontepadrao;
+          color: $cortextorodape;
+          align-self: center;
+          padding: 50px 0 50px 10%;
+
+          a {
+            color: $cortextorodape;
+
+            &:active {
+              color: $laranjatoledo;
+            }
+          }
+
+          .direitos {
+            padding: 0 0 0 30%;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.creditos {
+  background: url(../../img/creditos/fundo_créditos.jpg) left top no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+  .container {
+    padding: 0 15%;
+    display: block;
+    align-self: center;
+
+    .arealogo {
+      .logo {
+        width: 250px;
+      }
+
+      a {
+        font-family: $fontepadrao;
+        color: $cortextoclaro;
+        background-color: $botaodisabled;
+        border-radius: 50%;
+        border: $botaodisabled 5px solid;
+        width: 35px;
+        height: 35px;
+        display: block;
+        padding-top: 2px;
+        font-weight: $regular;
+
+        &:hover {
+          color: $botaodisabled;
+          border: $cortextoclaro 5px solid;
+          background-color: $cortextoclaro;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .conteudo {
+      color: $cortextoclaro;
+      font-family: $fontepadrao;
+      font-size: 16px;
+      line-height: 1.2rem;
+      font-size: 14px;
+
+      .equipe {
+        padding-left: 15px !important;
+        border-left: $bordaequipe 2px solid;
+        margin-top: 10% !important;
+      }
+
+      .info {
+        margin-top: 10% !important;
+        font-size: 10px;
+        border-top: $bordaequipe 2px solid;
+        padding-top: 5% !important;
+      }
+    }
+  }
+}
+
+.modal {
+  padding: 0;
+  margin: 0;
+
+  .modal-dialog {
+    padding: 0;
+    margin: 0;
+
+    .modal-content {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  body {
+    .curvalaranja {
+      height: 107%;
+      width: 43%;
+      margin-left: 56.99%;
+    }
+
+    .carrossel {
+      .carrosselitem {
+        .carrosselimagem {
+          margin-top: -38rem;
+          width: 59%;
+        }
+      }
+    }
+
+    .sectionprincipal {
+      .titulo {
+        margin-top: -3vh;
+        font-size: 28px;
+        line-height: 2rem;
+      }
+
+      .barralaranja,
+      .barrabranca {
+        width: 44px;
+      }
+
+      .textobarralaranja {
+        font-size: 14px;
+      }
+
+      .texto {
+        margin-top: 2.6rem;
+        font-size: 14px;
+      }
+
+      &#secao123 {
+        #secao1 {
+          .fundo {
+            .campoLogo {
+              .logoToledo {
+                width: 150px;
+              }
+            }
+          }
+
+          .imgnotebook {
+            width: 570px;
+            margin-left: 355px;
+            margin-top: 120px;
+          }
+
+          .conteudo {
+            margin-top: -75%;
+
+            .areamouse {
+              margin-top: 5rem;
+            }
+
+            .textobarralaranja {
+              font-size: 18px;
+            }
+
+            .titulo {
+              font-size: 50px;
+              line-height: 3rem;
+            }
+
+            .subtitulo {
+              margin-top: -1.5rem;
+              font-size: 40px;
+              line-height: 2rem;
+            }
+          }
+        }
+
+        #secao2 {
+          .fundo {
+            .conteudo {
+              .bolinhas {
+                width: 48px;
+              }
+            }
+          }
+        }
+
+        #secao3 {
+          .fundo {
+            .alertaControle {
+              margin-top: 4.5rem;
+              margin-left: 22rem;
+              padding-left: 4rem;
+
+              .textocarrossel {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+
+      &#secao4 {
+        background-size: 120%;
+        margin-bottom: -1px;
+
+        .bolinhas {
+          margin-top: 3rem;
+          margin-left: -7.5rem;
+        }
+
+        .fundo {
+          .conteudo {
+            margin-top: 2%;
+          }
+          .icones {
+            padding: 7vh 0 7vh 3vw;
+
+            li {
+              img {
+                width: 60px;
+              }
+
+              .texto {
+                font-size: 18px;
+              }
+              &.primeiro {
+                .col-2 {
+                  height: 69px;
+                  flex: 0 0 19% !important;
+                }
+              }
+
+              &.segundo {
+                .col-2 {
+                  height: 70px;
+                  flex: 0 0 20.3% !important;
+                }
+              }
+
+              &.terceiro {
+                .col-2 {
+                  height: 69px;
+                  flex: 0 0 21.1% !important;
+                }
+              }
+
+              &.quarto {
+                .col-2 {
+                  height: 69px;
+                  flex: 0 0 21.7% !important;
+                }
+              }
+
+              &.quinto {
+                .col-2 {
+                  height: 70px;
+                  flex: 0 0 21.3% !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#secao56 {
+        #secao6 {
+          .imagempontos {
+            .pontos {
+              font-size: 16px;
+              width: 1rem;
+              height: 1rem;
+
+              &#oculos {
+                top: 29%;
+              }
+
+              &#parede {
+                top: 32%;
+              }
+
+              &#garrafa {
+                top: 39%;
+              }
+
+              &#mesa {
+                top: 45%;
+              }
+
+              &#bloconotas {
+                top: 48%;
+              }
+
+              &#sofa {
+                top: 63%;
+              }
+
+              &#notebook {
+                top: 69%;
+              }
+
+              &#perna {
+                top: 67%;
+              }
+
+              &#chao {
+                top: 59%;
+              }
+
+              &#porta {
+                top: 52%;
+              }
+            }
+
+            .textoright,
+            .textoleft {
+              font-size: 14px;
+              padding: 36%;
+              line-height: 1rem;
+              height: 285%;
+            }
+          }
+        }
+      }
+
+      &#secao789 {
+        .imagemlaranja {
+          height: 260%;
+        }
+      }
+
+      &#secao10 {
+        .imagemaluno {
+          margin-top: 5%;
+        }
+      }
+
+      &#secao1112 {
+        #secao12 {
+          .imagem {
+            left: -7% !important;
+            width: 38% !important;
+            padding-right: 5%;
+          }
+        }
+      }
+
+      &#secao13 {
+        .imagemaluno {
+          padding: 9.3% 0;
+        }
+      }
+
+      &#secao14 {
+        .fundo {
+          .bolinhas {
+            width: 40%;
+            margin-top: 5%;
+          }
+
+          .conteudo {
+            margin-top: 12%;
+          }
+        }
+      }
+
+      &#secao15 {
+        .fundo {
+          padding-top: 8vh;
+        }
+      }
+
+      &#secao16 {
+        .imagemaluno {
+          margin-top: -12%;
+        }
+
+        .fundo {
+          margin-top: -10%;
+
+          .conteudo {
+            margin-top: 8%;
+          }
+        }
+      }
+
+      &#rodape {
+        .fundo {
+          .arealogo {
+            align-self: center;
+          }
+
+          .inforodape {
+            padding: inherit;
+            font-size: 11px;
+
+            .direitos {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+  body {
+    .curvalaranja {
+      height: 110%;
+    }
+
+    .carrossel {
+      .carrosselitem {
+        .carrosselimagem {
+          margin-top: -42rem !important;
+        }
+      }
+    }
+    .sectionprincipal {
+      .texto {
+        font-size: 16px !important;
+      }
+
+      &#secao4 {
+        background-size: 105% !important;
+        .imagemlaranja {
+          height: 80.1% !important;
+        }
+
+        .bolinhas {
+          right: 5% !important;
+        }
+        .fundo {
+          .icones {
+            padding: 8vh 0 8vh 3vw !important;
+          }
+        }
+      }
+
+      &#secao123 {
+        #secao1 {
+          .conteudo {
+            margin-top: -64% !important;
+          }
+        }
+      }
+
+      &#secao14 {
+        margin-bottom: -2px !important;
+      }
+
+      &#secao15 {
+        .fundo {
+          padding: 15vh 0 15vh 6% !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  body {
+    .carrossel {
+      .carrosselitem {
+        .carrosselimagem {
+          margin-top: -35rem;
+          width: 57%;
+        }
+      }
+    }
+
+    .sectionprincipal {
+      .texto {
+        font-size: 15px;
+      }
+
+      .titulo {
+        font-size: 30px;
+      }
+
+      &#secao123 {
+        #secao1 {
+          .imgnotebook {
+            width: 60%;
+            margin-left: 46%;
+            margin-top: 10%;
+          }
+
+          .conteudo {
+            margin-top: -57%;
+
+            .titulo {
+              font-size: 52px;
+            }
+
+            .subtitulo {
+              font-size: 42px;
+            }
+          }
+
+          .fundo {
+            .campoLogo {
+              .logoToledo {
+                width: 180%;
+              }
+            }
+          }
+        }
+
+        #secao3 {
+          .fundo {
+            .alertaControle {
+              margin-top: 6.5rem;
+              margin-left: 31rem;
+              padding-left: 5rem;
+
+              .textocarrossel {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+
+      &#secao4 {
+        .imagemlaranja {
+          height: 89.3%;
+          width: 55%;
+        }
+
+        .bolinhas {
+          margin-top: 5%;
+          right: 3%;
+        }
+
+        .fundo {
+          .conteudo {
+            margin-top: 3%;
+          }
+        }
+      }
+
+      &#secao789 {
+        .imagemlaranja {
+          height: 200%;
+        }
+
+        #secao8 {
+          .imagemaluno {
+            width: 62%;
+          }
+        }
+
+        #secao9 {
+          margin-bottom: -1px;
+        }
+      }
+
+      &#secao13 {
+        .imagemaluno {
+          padding: 6.3% 0;
+        }
+      }
+
+      &#secao14 {
+        .fundo {
+          .conteudo {
+            margin-top: 10%;
+          }
+          .bolinhas {
+            width: 35%;
+            margin-top: 23%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  body {
+    .curvalaranja {
+      height: 110%;
+      margin-top: 0;
+    }
+
+    .carrossel {
+      .carrosselitem {
+        .carrosselimagem {
+          margin-top: -53%;
+          width: 900px;
+        }
+      }
+    }
+
+    .sectionprincipal {
+      .titulo {
+        font-size: 38px;
+      }
+      .texto {
+        font-size: 20px;
+      }
+
+      .textobarralaranja {
+        font-size: 18px;
+      }
+
+      .barralaranja,
+      .barrabranca {
+        width: 56px;
+      }
+
+      &#secao123 {
+        #secao1 {
+          .imgnotebook {
+            width: 800px;
+            margin: inherit;
+            right: -7%;
+            top: 20%;
+          }
+          .fundo {
+            .campoLogo {
+              .logoToledo {
+                width: 220px;
+              }
+            }
+          }
+
+          .conteudo {
+            .barralaranja {
+              width: 84px;
+            }
+
+            .titulo {
+              font-size: 68px;
+            }
+
+            .subtitulo {
+              font-size: 50px;
+            }
+
+            .textobarralaranja {
+              font-size: 22px;
+            }
+          }
+        }
+
+        #secao3 {
+          .fundo {
+            .alerta {
+              img {
+                width: 12%;
+              }
+              .textoAlerta {
+                font-size: 1.15rem;
+              }
+            }
+
+            .alertaControle {
+              margin-left: 0;
+              margin-top: 10%;
+              padding-left: 7%;
+              right: 3%;
+
+              .textocarrossel {
+                font-size: 1.15rem;
+              }
+            }
+          }
+        }
+      }
+
+      &#secao4 {
+        background-size: 105%;
+
+        .bolinhas {
+          margin-top: 5%;
+          width: 12%;
+          right: 5%;
+          margin-left: 0;
+        }
+
+        .fundo {
+          .icones {
+            li {
+              .col-2 {
+                height: 84px !important;
+                max-width: 83px !important;
+              }
+
+              .texto {
+                font-size: 24px;
+              }
+
+              img {
+                width: 74px;
+              }
+            }
+          }
+        }
+      }
+
+      &#secao56 {
+        #secao6 {
+          .bolinhas {
+            width: 6%;
+            margin-top: 55%;
+          }
+          .imagempontos {
+            .pontos {
+              width: 1.3rem;
+              height: 1.3rem;
+              font-size: 20px;
+            }
+
+            .textoright,
+            .textoleft {
+              font-size: 20px;
+            }
+
+            .arrow-left,
+            .arrow-right {
+              border-top: 10px solid transparent;
+              border-bottom: 10px solid transparent;
+            }
+
+            .arrow-left {
+              border-right: 10px solid $cortextoclaro;
+            }
+
+            .arrow-right {
+              border-left: 10px solid $cortextoclaro;
+            }
+
+            .textoleft {
+              left: 194%;
+            }
+
+            .textoright {
+              right: 210%;
+            }
+          }
+        }
+      }
+
+      &#secao789,
+      &#secao10 {
+        margin-bottom: -1px;
+      }
+
+      &#secao13 {
+        .imagemaluno {
+          padding: 5% 0;
+        }
+      }
+
+      &#secao14 {
+        margin-bottom: -2px !important;
+      }
+
+      &#secao15 {
+        .fundo {
+          padding: 13vh 0 13vh 6%;
+        }
+      }
+      &#secao16 {
+        margin-top: -10%;
+      }
+
+      &#rodape {
+        .fundo {
+          .arealogo {
+            .logo {
+              width: 50%;
+            }
+          }
+          .inforodape {
+            .direitos {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes scroll {
+  100% {
+    background-position: -3000px 0;
+  }
+}
+
+@-moz-keyframes scroll {
+  100% {
+    background-position: -3000px 0;
+  }
+}
+
+@-o-keyframes scroll {
+  100% {
+    background-position: 0 3000px;
+  }
+}
+
+@-ms-keyframes scroll {
+  100% {
+    background-position: 0 5000px;
+  }
+}
+
+@keyframes scroll {
+  100% {
+    background-position: 0 5000px;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+
+@keyframes movingBox {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0.3;
+  }
+
+  25% {
+    opacity: 0.9;
+  }
+
+  50% {
+    transform: translate(100px, 100px);
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: translate(30px, 30px);
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .cd-single-point .cd-more-info {
+    position: absolute;
+    width: 220px;
+    height: 240px;
+  }
+}
